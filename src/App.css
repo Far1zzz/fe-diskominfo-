@@ -1,0 +1,49 @@
+@import url("https://fonts.cdnfonts.com/css/futura-md-bt");
+
+:root {
+  --primaryColor: #bc2025;
+  --secondaRyColor: #6f0e19;
+  --thirdColor: #ba3b3b;
+  --blackColor: #272727;
+  --gray: #feeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background: var(--primaryColor);
+}
+
+.navigationBar {
+  padding: 15px;
+  background-color: #6f0e19;
+}
+
+.navigationClass {
+  padding: 5px;
+}
+
+.promotionBanner {
+  width: 603px;
+  height: 115px;
+  background-color: #272727;
+  border-radius: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 15px;
+}
+
+.logo img {
+  padding-top: 1px;
+}
