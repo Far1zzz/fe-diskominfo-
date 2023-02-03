@@ -1,30 +1,26 @@
-.posisi{
-    
-    position: fixed;
-    
+.posisi {
+  position: fixed;
 }
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 #two {
-    top: -240px;
-    right: 20px;
+  top: -240px;
+  right: 20px;
+  position: absolute;
+}
+@media screen and (min-width: 320px) {
+  #two {
+    color: #272727;
+    top: -195px;
+    right: 35px;
     position: absolute;
   }
-@media screen and (min-width: 320px) {
-    #two {
-        top: -200px;
-        right: 20px;
-        position: absolute;
-      }
-  }
+}
 @media screen and (min-width: 833px) {
-    #two {
-        top: -250px;
-        right: 90px;
-        position: absolute;
-      }
+  #two {
+    top: -250px;
+    right: 90px;
+    position: absolute;
   }
-  
-
-  
+}
