@@ -72,7 +72,7 @@
 .content1-bg {
   display: flex;
   margin-bottom: 10px;
-  justify-content: start;
+  justify-content: flex-start;
   background-color: rgb(137, 0, 0);
   width: 100%;
   height: 310px;
@@ -134,7 +134,7 @@
 .content2-bg {
   display: flex;
   margin-bottom: 10px;
-  justify-content: start;
+  justify-content: flex-start;
   background-color: rgb(137, 0, 0);
   width: 100%;
   height: 310px;
