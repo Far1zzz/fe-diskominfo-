@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-navbar {
+  background: #6f0e19;
+  position: relative;
+}
+
+body {
+  background: white;
+}
+
+.img-logo {
+  width: 288px;
+}
+
+.caraousel-image {
+  width: 670px;
+  height: 115px;
+  border-radius: 10px;
+}
+
+.carousel {
+  width: 670px;
+  height: 115px;
+  border-radius: 10px;
+}
+
+/* handle navabar */
+.navbar-content {
+  background: #bc2025;
+}
+
+.contents-navbar {
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+
+.contents-navbar:hover {
+  background: white;
+  color: #6f0e19;
+  font-family: sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.dropdown-header {
+  color: white;
+}
+
+.bg-content-navbar {
+  background: #bc2025;
+}
+
+.dropdown-item {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: white;
+  color: #6f0e19;
+  cursor: pointer;
+}
+
+.btn-search {
+  background: white;
+  border: none;
+  width: 50px;
+  border-radius: 5px;
+}
+
+/* handle Content */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #bc2025;
+  margin: 0;
+}
+
+.titles {
+  font-size: 12px;
+  font-weight: bold;
+  color: #bc2025;
+  margin: 0;
+}
+
+.terkini {
+  margin-top: -4px;
+  margin-left: 8px;
+}
+
+.border {
+  background: #bc2025;
+  height: 40px;
+  margin-left: -15px;
+  width: 5px;
+}
+.news-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* handle content 1 berita terbaru */
+.content1 {
+  position: relative;
+}
+
+.content1 img {
+  width: 350px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.box-news {
+  position: absolute;
+  background: white;
+  top: 150px;
+  margin-left: -5px;
+  box-shadow: 0px 0px 5px #333;
+}
+
+.box-news h5 {
+  text-align: justify;
+  height: 17px;
+  width: auto;
+  margin: 3px;
+  margin-top: 3px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.breaking h4 {
+  position: absolute;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+  top: 180px;
+}
+
+.breaking h6 {
+  position: absolute;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+  top: 200px;
+  z-index: 6;
+}
+/* handle content 2 berita terkini */
+.content2 {
+  position: relative;
+}
+
+.content2 img {
+  width: 530px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+/* mengatur ukuran pc dan tablet juga, namun jika tidka bisa disini buat media query lainnya */
+@media (max-width: 992px) {
+  .img-logo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .caraousel-image,
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* tablet */
+
+/* mengatur ukuran di hp */
+@media (max-width: 576px) {
+  .img-logo {
+    width: 200px;
+    margin-bottom: 20px;
+    float: left;
+  }
+
+  .content2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .caraousel-image,
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    top: -135px;
+    right: 10px;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .navbar-content {
+    background: #6f0e19;
+  }
+}
