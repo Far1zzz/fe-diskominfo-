@@ -17,12 +17,14 @@ body {
 
 .img-logo {
   width: 288px;
+  aspect-ratio: auto;
 }
 
 .caraousel-image {
-  width: auto;
-  height: 140px;
-  border-radius: 15px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  border-radius: 5px;
 }
 
 .carousel {
@@ -44,7 +46,7 @@ body {
 }
 
 .contents-navbar:hover {
-  background: white;
+  background-color: white;
   color: #6f0e19;
   font-family: sans-serif;
   font-size: 13px;
@@ -81,11 +83,6 @@ body {
 
 /* mengatur ukuran pc dan tablet juga, namun jika tidka bisa disini buat media query lainnya */
 @media (max-width: 992px) {
-  .img-logo {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
   .caraousel-image,
   .carousel {
     width: 100%;

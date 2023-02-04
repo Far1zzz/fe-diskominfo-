@@ -1,8 +1,8 @@
 import React from "react";
 import "../assets/css/navbar.css";
 import LogoPemerintah from "../assets/img/LOGO DISKOM.png";
-import LogoPemerintahh from "../assets/img/design.png";
-import LogoPemerintahhh from "../assets/img/3.png";
+import PromotionBanner from "../assets/img/PROMOTION BANNER.png";
+import PromotionBanner2 from "../assets/img/PROMOTION BANNER 2.png";
 import { Carousel } from "antd";
 
 function Navbar() {
@@ -21,14 +21,14 @@ function Navbar() {
               <Carousel autoplay className="carousel" effect="fade">
                 <div>
                   <img
-                    src={LogoPemerintahh}
+                    src={PromotionBanner}
                     alt=""
                     className="caraousel-image"
                   />
                 </div>
                 <div>
                   <img
-                    src={LogoPemerintahhh}
+                    src={PromotionBanner2}
                     alt=""
                     className="caraousel-image"
                   />
