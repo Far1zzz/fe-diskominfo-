@@ -41,7 +41,7 @@
   justify-content: start;
   background-color: rgb(137, 0, 0);
   width: 365px;
-  height: 300px;
+  height: 280px;
   border-radius: 5px;
 }
 
@@ -78,7 +78,7 @@
   font-weight: bold;
   color: rgb(255, 255, 255);
   font-size: 12px;
-  top: 265px;
+  top: 245px;
 }
 
 .breaking h6 {
@@ -88,7 +88,7 @@
   font-weight: bold;
   color: rgb(255, 255, 255);
   font-size: 12px;
-  top: 280px;
+  top: 260px;
   z-index: 6;
 }
 /* handle content 2 berita terkini */
@@ -106,7 +106,7 @@
 @media (max-width: 576px) {
   .content1-bg {
     width: 100%;
-    height: 300px;
+    height: 280px;
   }
 
   .content2 img {

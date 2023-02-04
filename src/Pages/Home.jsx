@@ -34,14 +34,14 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 mb-3">
+            {/* <div className="col-lg-6 mb-3">
               <div className="content2">
                 <img src={Content2} alt="Berita terkini 1" />
                 <div className="box-news">
                   <h5>PERTEMUAN KEPALA DINAS KOMINFO </h5>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* <div className="col-lg-2 mb-3">
               <div className="card">
                 <div className="card-header">ahhaha</div>
