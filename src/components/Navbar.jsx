@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/styleku.css";
+import "../assets/css/navbar.css";
 import LogoPemerintah from "../assets/img/LOGO DISKOM.png";
 import LogoPemerintahh from "../assets/img/design.png";
 import LogoPemerintahhh from "../assets/img/3.png";
@@ -10,7 +10,10 @@ function Navbar() {
     <React.Fragment>
       <div id="header-navbar">
         <div className="container">
-          <div className="row d-flex justify-content-between align-items-center py-3">
+          <div
+            style={{ border: "1px solid white" }}
+            className="row d-flex justify-content-between align-items-center py-3"
+          >
             <div className="col-md-4">
               <img src={LogoPemerintah} alt="" className="img-logo" />
             </div>
@@ -37,7 +40,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-content">
           <div className="container-fluid">
             <button
-              className="navbar-toggler bg-white"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"

@@ -20,15 +20,14 @@ body {
 }
 
 .caraousel-image {
-  width: 670px;
-  height: 115px;
-  border-radius: 10px;
+  width: auto;
+  height: 140px;
+  border-radius: 15px;
 }
 
 .carousel {
-  width: 670px;
-  height: 115px;
-  border-radius: 10px;
+  width: auto;
+  height: 140px;
 }
 
 /* handle navabar */
@@ -80,98 +79,6 @@ body {
   border-radius: 5px;
 }
 
-/* handle Content */
-.title {
-  font-size: 18px;
-  font-weight: bold;
-  color: #bc2025;
-  margin: 0;
-}
-
-.titles {
-  font-size: 12px;
-  font-weight: bold;
-  color: #bc2025;
-  margin: 0;
-}
-
-.terkini {
-  margin-top: -4px;
-  margin-left: 8px;
-}
-
-.border {
-  background: #bc2025;
-  height: 40px;
-  margin-left: -15px;
-  width: 5px;
-}
-.news-container {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-/* handle content 1 berita terbaru */
-.content1 {
-  position: relative;
-}
-
-.content1 img {
-  width: 350px;
-  height: 220px;
-  border-radius: 10px;
-}
-
-.box-news {
-  position: absolute;
-  background: white;
-  top: 150px;
-  margin-left: -5px;
-  box-shadow: 0px 0px 5px #333;
-}
-
-.box-news h5 {
-  text-align: justify;
-  height: 17px;
-  width: auto;
-  margin: 3px;
-  margin-top: 3px;
-  font-size: 12px;
-  font-family: sans-serif;
-}
-
-.breaking h4 {
-  position: absolute;
-  margin-left: 5px;
-  font-family: sans-serif;
-  font-weight: bold;
-  color: black;
-  font-size: 12px;
-  top: 180px;
-}
-
-.breaking h6 {
-  position: absolute;
-  margin-left: 5px;
-  font-family: sans-serif;
-  font-weight: bold;
-  color: black;
-  font-size: 12px;
-  top: 200px;
-  z-index: 6;
-}
-/* handle content 2 berita terkini */
-.content2 {
-  position: relative;
-}
-
-.content2 img {
-  width: 530px;
-  height: 220px;
-  border-radius: 10px;
-}
-
 /* mengatur ukuran pc dan tablet juga, namun jika tidka bisa disini buat media query lainnya */
 @media (max-width: 992px) {
   .img-logo {
@@ -191,7 +98,8 @@ body {
 /* mengatur ukuran di hp */
 @media (max-width: 576px) {
   .img-logo {
-    width: 200px;
+    border: 1px solid wheat;
+    width: 230px;
     margin-bottom: 20px;
     float: left;
   }
@@ -204,13 +112,14 @@ body {
   .caraousel-image,
   .carousel {
     width: 100%;
-    height: auto;
+    height: 100px;
   }
 
   .navbar-toggler {
+    border: 1px solid white;
     position: absolute;
-    top: -135px;
-    right: 10px;
+    top: -170px;
+    right: -12px;
     transform: translateY(-50%) translateX(-50%);
   }
 

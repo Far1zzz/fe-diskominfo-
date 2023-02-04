@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/styleku.css";
+import "../assets/css/home.css";
 import Content1 from "../assets/img/63CC610C-901F-41DB-AFC8-EAEDA6F73B15-1440x564_c.jpeg";
 import Content2 from "../assets/img/IMG-20230118-WA0022-1440x564_c.jpg";
 
@@ -19,9 +19,14 @@ function Home() {
           <div className="row">
             <div className="col-lg-4 -3">
               <div className="content1">
-                <img src={Content1} alt="Berita terkini 1" />
-                <div className="box-news">
-                  <h5>PERTEMUAN KEPALA DINAS KOMINFO </h5>
+                <div className="content1-bg">
+                  <img src={Content1} alt="" />
+                  <div className="box-news">
+                    <h5>
+                      Pengumuman hasil akhir tes programmer dan desain grafis
+                      pada tanggal 20 april
+                    </h5>
+                  </div>
                 </div>
                 <div className="breaking">
                   <h4>Kamis, 5 Januari 2023</h4>
